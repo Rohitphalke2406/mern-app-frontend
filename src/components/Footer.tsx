@@ -7,7 +7,7 @@ const Footer = () => {
             </span>
             <span className="text-white font-bold tracking-tight flex gap-4">
                 <span>Privacy Policy</span>
-                <span>Terms Of Services</span>
+                <span>Terms of Services</span>
             </span>
         </div>
     </div>
