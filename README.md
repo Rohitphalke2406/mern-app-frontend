@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Food Delivery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive food delivery application built with the MERN stack (MongoDB, Express.js, React, Node.js), Stripe for payment processing, OAuth for authentication, Cloudinary for image storage, and Postman for API testing.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- User authentication using OAuth (Google, Facebook, etc.)
+- Secure payment processing with Stripe
+- Image storage and management with Cloudinary
+- Real-time updates and notifications
+- Order tracking and history
+- Admin dashboard for managing restaurants and orders
+- Postman collection for API testing
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Demo
 
-- Configure the top-level `parserOptions` property like this:
+Deployed Link:- https://mern-app-frontend-c6wy.onrender.com
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/food-delivery-app.git
+    ```
+
+2. **Navigate to the project directory:**
+    ```sh
+    cd food-delivery-app
+    ```
+
+3. **Install server dependencies:**
+    ```sh
+    cd server
+    npm install
+    ```
+
+4. **Install client dependencies:**
+    ```sh
+    cd ../client
+    npm install
+    ```
+
+## Environment Variables
+
+Create a `.env` file in the `server` directory and add the following environment variables:
+
